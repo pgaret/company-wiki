@@ -1,0 +1,62 @@
+@@font-face {
+  font-family: KFont1;
+  src: url('../../public/KustomerFont1.woff') format('woff')
+}
+
+@@font-face {
+  font-family: KFont2;
+  src: url('../../public/KustomerFont2.woff') format('woff')
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.navbar--title{
+  background-color: blue;
+}
+
+.navbar--options a{
+  color: white;
+}
+
+
+.sidebar--subfeature{
+  margin-left: 10%;
+}
+
+.subfeature{
+  text-align: center;
+}
+
+.subfeature--title{
+  color: blue;
+  font-size: 2vw;
+}
+
+.subfeature--desc{
+  font-size: 150%;
+}
+
+.subfeature--img{
+  width: 100%;
+}
+
+.article{
+  margin: 3%;
+  text-align: center;
+}
+
+.article--name{
+  font-size: 200%;
+  color: blue;
+}
+
+.article--desc{
+  font-size: 150%;
+}
+
+.article--edit_button{
+  margin: 0 1%;
+}
